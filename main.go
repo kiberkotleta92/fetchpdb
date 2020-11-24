@@ -133,6 +133,11 @@ func main() {
 	flag.Parse()
 	args := flag.Args()
 
+	if len(args) < 2 {
+		flag.Usage()
+		return
+	}
+
 	var srvr server
 	switch *region {
 	case "jp":
