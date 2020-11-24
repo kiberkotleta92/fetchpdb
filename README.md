@@ -2,6 +2,8 @@
 
 Simple cli for downloading molecule structure files
 
+Repo contains binary for mac os
+
 ```
 Usage: fetchpdb [-format] [-region] [id1...]
   -format string
