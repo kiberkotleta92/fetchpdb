@@ -1,4 +1,4 @@
-# pdbfetch
+# fetchpdb
 
 Simple cli for downloading molecule structure files
 
@@ -15,5 +15,4 @@ Usage: fetchpdb [-format] [-region] [id1...]
 ## TODO
 - appropriate readme
 - add binaries
-- add installation from brew
 - add density maps
